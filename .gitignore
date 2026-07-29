@@ -17,8 +17,6 @@ go.work.sum
 vendor/
 
 # Environment and secrets
-.env
-.env.local
 .env.*.local
 *.pem
 *.key
@@ -26,7 +24,6 @@ vendor/
 
 # IDE and editors
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -34,6 +31,7 @@ vendor/
 .classpath
 .settings/
 
+temp_auto_push.bat
 # OS generated
 .DS_Store
 .DS_Store?
@@ -70,3 +68,7 @@ tmp/
 config.local.*
 *.local.yaml
 *.local.yml
+.gitignore
+branch_structure.json
+config.bat
+node_modules
